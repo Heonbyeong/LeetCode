@@ -3,7 +3,6 @@ class Solution:
         str_dist = set()
         max_len = 0
         count = 0
-        max_len = 0
 
         if len(s) <= 1:
             return len(s)
