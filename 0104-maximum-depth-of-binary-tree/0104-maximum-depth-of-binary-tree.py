@@ -10,7 +10,7 @@ class Solution:
         maximum_level = 0
 
         if root is None:
-            return 0
+            return maximum_level
 
         while queue:
             level = len(queue)
